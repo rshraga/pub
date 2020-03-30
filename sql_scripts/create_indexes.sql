@@ -1,0 +1,13 @@
+CREATE INDEX IF NOT EXISTS idx_hha_claimsk_dsysrtky ON hha_claimsk(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_hha_revenuek_dsysrtky ON hha_revenuek(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_car_claimsk_dsysrtky ON car_claimsk(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_car_linek_dsysrtky ON car_linek(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_dme_claimsk_dsysrtky ON dme_claimsk(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_dme_linek_dsysrtky ON dme_linek(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_inp_claimsk_dsysrtky ON inp_claimsk(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_inp_revenuek_dsysrtky ON inp_revenuek(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_out_claimsk_dsysrtky ON out_claimsk(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_out_revenuek_dsysrtky ON out_revenuek(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_snf_claimsk_dsysrtky ON snf_claimsk(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_snf_revenuek_dsysrtky ON snf_revenuek(dsysrtky);
+CREATE INDEX IF NOT EXISTS idx_mbsf_dsysrtky ON mbsf(dsysrtky);

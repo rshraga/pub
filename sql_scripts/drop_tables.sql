@@ -1,0 +1,13 @@
+DROP TABLE IF EXISTS hha_claimsk;
+DROP TABLE IF EXISTS hha_revenuek;
+DROP TABLE IF EXISTS car_claimsk;
+DROP TABLE IF EXISTS car_linek;
+DROP TABLE IF EXISTS dme_claimsk;
+DROP TABLE IF EXISTS dme_linek;
+DROP TABLE IF EXISTS inp_claimsk;
+DROP TABLE IF EXISTS inp_revenuek;
+DROP TABLE IF EXISTS out_claimsk;
+DROP TABLE IF EXISTS out_revenuek;
+DROP TABLE IF EXISTS snf_claimsk;
+DROP TABLE IF EXISTS snf_revenuek;
+DROP TABLE IF EXISTS mbsf;
